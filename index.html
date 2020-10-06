@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+
+    <div id="colorbk"></div> 
+    
+    <h1>Memory Game</h1> <br>
+    <p id="timer">0</p><br>
+
+<div id="position">
+    <input type="text" id="ImePrezime" placeholder="Name...">
+    <p id="warning">Type your name and press enter!</p> <br><br>
+
+    <div id="btns">
+        <div class="dugmad">
+            <input type="radio" name="level" id="Lako" value="8" checked>
+            <label for="">Easy</label>
+        </div>
+        <div class="dugmad">
+            <input type="radio" name="level" id="Srednje" value="18">
+            <label for="">Medium</label>
+        </div>
+        <div class="dugmad">
+            <input type="radio" name="level" id="Tesko" value="32">
+            <label for="">Hard</label>
+        </div>
+        <div class="dugmad">
+            <input type="radio" name="level" id="Ekspert" value="50">
+            <label for="">Expert</label>
+
+        </div>
+    </div>
+
+    </div>
+    
+    <div id="color">
+        <div class="grid"></div>
+    </div>
+
+<div id="hscore">
+    <button type="button" id="easy" class="btn">Easy</button>
+    <button type="button" id="medium" class="btn">Medium</button>
+    <button type="button" id="hard" class="btn">Hard</button>
+    <button type="button" id="expert" class="btn">Expert</button>
+</div>
+
+<table id="tabela">
+
+</table>
+
+    <script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>

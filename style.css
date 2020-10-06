@@ -1,0 +1,533 @@
+@media only screen and (min-width: 1000px) {
+  * {
+    margin: none;
+    padding: none;
+  }
+
+  #hscore {
+    width: 40%;
+    position: fixed;
+    right: -380px;
+    top: 30px;
+  }
+
+  #tabela {
+    width: 470px;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    top: 100px;
+  }
+
+  .btn {
+    width: 23.8%;
+    height: 50px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 30px;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    background-color: purple;
+    color: yellow;
+    position: relative;
+    right: 300px;
+  }
+  td {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: yellow;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+  }
+
+  #btns {
+    display: none;
+  }
+
+  #timer {
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(255, 230, 0);
+    background-color: rgba(255, 0, 0, 0.287);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 40px;
+    color: rgb(34, 185, 14);
+    text-align: center;
+    width: 70px;
+    margin-left: 45%;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+  }
+
+  #position {
+    text-align: center;
+  }
+
+  #warning {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(255, 217, 0);
+    -webkit-text-stroke-color: purple;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  body {
+    background-image: url("images/background2.jpeg");
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  #color {
+    background-color: rgba(255, 247, 0, 0.708);
+  }
+
+  #ImePrezime {
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border-color: yellow;
+    background-color: rgba(255, 255, 0, 0.609);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  ::placeholder {
+    color: purple;
+  }
+
+  .dugmad {
+    display: inline;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: purple;
+    background-color: rgba(255, 230, 0, 0.68);
+    padding: 5px;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(28, 0, 153);
+  }
+
+  #colorbk {
+    display: block;
+    background-color: rgba(195, 0, 255, 0.42);
+    width: 99%;
+    height: 370px;
+    position: absolute;
+    z-index: -5;
+    margin: none;
+    padding: none;
+  }
+
+  .btn {
+    width: 100px;
+  }
+
+  #ekspert {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+  }
+
+  #lako {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+
+  #srednje {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+
+  #tesko {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+  }
+
+  img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent;
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 100px;
+    padding: none;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 40%;
+    -webkit-text-fill-color: purple;
+    -webkit-text-stroke-color: rgb(255, 217, 0);
+    -webkit-text-stroke-width: 5px;
+  }
+}
+
+/* TABLET */
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  #btns {
+    display: none;
+  }
+
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 120px;
+    color: rgb(255, 230, 0);
+    padding: none;
+    height: 20px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    -webkit-text-fill-color: purple;
+    -webkit-text-stroke-color: rgb(255, 217, 0);
+    -webkit-text-stroke-width: 5px;
+  }
+
+  #timer {
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(255, 230, 0);
+    background-color: rgba(255, 0, 0, 0.287);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 40px;
+    color: rgb(34, 185, 14);
+    text-align: center;
+    width: 70px;
+    margin-left: 45%;
+    margin-left: 45%;
+    position: fixed;
+    top: 150px;
+    left: -300px;
+  }
+
+  #position {
+    text-align: center;
+  }
+
+  #warning {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(255, 217, 0);
+    -webkit-text-stroke-color: purple;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  body {
+    background-image: url("images/background1.jpeg");
+    height: 100%;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  #color {
+    background-color: rgba(255, 255, 0, 0.623);
+  }
+
+  #ImePrezime {
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: yellow;
+    background-color: rgba(255, 255, 0, 0.609);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-top: 50px;
+  }
+
+  ::placeholder {
+    color: purple;
+  }
+
+  .dugmad {
+    display: inline;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: purple;
+    background-color: rgba(255, 230, 0, 0.79);
+    padding: 5px;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 15px;
+    color: rgb(28, 0, 153);
+  }
+
+  #colorbk {
+    display: block;
+    background-color: rgba(195, 0, 255, 0.625);
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    z-index: -5;
+    margin: none;
+    padding: none;
+  }
+
+  .btn {
+    width: 100px;
+  }
+
+  #btns {
+    padding: 20px;
+  }
+
+  #ekspert {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+  }
+
+  #lako {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+
+  #srednje {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+
+  #tesko {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+  }
+
+  img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent;
+    width: 90px;
+    height: 90px;
+  }
+
+  #hscore {
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  #tabela {
+    width: 30%;
+    height: 70px;
+    margin: auto;
+  }
+
+  .btn {
+    width: 53px;
+    height: 30px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 30px;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 10px;
+    background-color: purple;
+    color: yellow;
+  }
+  td {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: yellow;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #btns {
+    display: none;
+  }
+
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 50px;
+    padding: none;
+    height: 20px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    -webkit-text-fill-color: purple;
+    -webkit-text-stroke-color: rgb(255, 217, 0);
+    -webkit-text-stroke-width: 3px;
+  }
+  #timer {
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(255, 230, 0);
+    background-color: rgba(255, 0, 0, 0.287);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    color: rgb(34, 185, 14);
+    text-align: center;
+    width: 40px;
+    margin: auto;
+  }
+
+  #position {
+    text-align: center;
+  }
+
+  #warning {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    -webkit-text-fill-color: rgb(255, 217, 0);
+    -webkit-text-stroke-color: purple;
+    -webkit-text-stroke-width: 1px;
+    font-size: 20px;
+  }
+
+  body {
+    background-image: url("images/background1.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  #color {
+    background-color: rgba(255, 255, 0, 0.623);
+  }
+
+  #ImePrezime {
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: yellow;
+    background-color: rgba(255, 255, 0, 0.609);
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  ::placeholder {
+    color: purple;
+  }
+
+  .dugmad {
+    display: inline;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: purple;
+    background-color: rgba(255, 230, 0, 0.776);
+    padding: 2px;
+    margin: 2px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 10px;
+    color: rgb(28, 0, 153);
+  }
+
+  #colorbk {
+    display: block;
+    background-color: rgba(195, 0, 255, 0.418);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: -5;
+    margin: none;
+    padding: none;
+  }
+
+  .btn {
+    width: 100px;
+  }
+
+  #btns {
+    padding: 20px;
+  }
+
+  #ekspert {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  #lako {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+  }
+
+  #srednje {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  #tesko {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+
+  img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent;
+    width: 40px;
+    height: 40px;
+  }
+
+  #hscore {
+    width: 51%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  #tabela {
+    width: 45%;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 140px;
+  }
+
+  .btn {
+    width: 65px;
+    height: 30px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 30px;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 10px;
+    background-color: purple;
+    color: yellow;
+  }
+  td {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: yellow;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 12px;
+  }
+}
